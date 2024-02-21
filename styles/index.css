@@ -15,6 +15,11 @@
     
 }
 
+.navbutton button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.681);
+    font-size:medium;
+}
 .navbutton{
     display: flex;
     gap: 1em;
