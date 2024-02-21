@@ -1,8 +1,41 @@
 .navbar{
     overflow: hidden;
-    background-color: red;
-    border: none;
+    display: flex;
+    gap: 73em;
 }
+
+.navbutton button{
+    background-color: blue;
+    color: aliceblue;
+    height: 6vh;
+    width: 12vh;
+    border: 3px;
+    border-style:outset;
+    
+    
+}
+
+.navbutton{
+    display: flex;
+    gap: 1em;
+}
+.navbar h1{
+    color: blue;
+    font-family: 'Montez', cursive;
+    margin: 0%;
+    
+}
+.navbar h1, p{
+    margin-right: auto;
+}
+
+.navbar p{
+    margin: 0%;
+    font-family: 'Ubuntu Mono';
+    font-size: small;
+   
+}
+
 
 body{
     background-image: url(/images/background.jpg);
