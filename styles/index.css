@@ -48,3 +48,19 @@ body{
     background-size: 100% 100%;
   background-attachment: fixed;
 }
+
+.posts button{
+   background-color: rgb(254, 254, 87);
+   border: 2px;
+   border-style: outset;
+   height: 4vh;
+   width: 15vh;
+}
+.posts{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 43%;
+    
+    gap: 1em;
+}
