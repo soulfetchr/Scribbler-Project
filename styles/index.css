@@ -1,7 +1,7 @@
 .navbar{
     overflow: hidden;
     display: flex;
-    gap: 73em;
+    justify-content: space-between;
 }
 
 .navbutton button{
@@ -11,8 +11,6 @@
     width: 12vh;
     border: 3px;
     border-style:outset;
-    
-    
 }
 
 .navbutton button:hover {
@@ -22,7 +20,7 @@
 }
 .navbutton{
     display: flex;
-    gap: 1em;
+    gap: 7%;
 }
 .navbar h1{
     color: blue;
@@ -47,8 +45,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
   background-attachment: fixed;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+   
   
 }
 
@@ -94,7 +91,7 @@ body{
 .model-content {    
   position: relative;
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 7% auto;
   padding: 20px;
   border: 1px solid #888;
   width:50vh ;
@@ -114,4 +111,38 @@ body{
     font-size: 20px;
     font-weight: bold;
     color: #888;
+}
+
+.model-body {
+    display: grid;
+    padding-bottom: 25px;
+}
+.model-body input, label{
+    font-family:Tahoma,sans-serif;
+    font-weight:medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.model-body input{
+    background-color: #e8e8e8;
+    border: none;
+    height: 3vh;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.model-footer {
+    display: grid;
+}
+
+.model-footer button {
+    font-family:Tahoma,sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: light;
+    color: #e8e8e8;
+    background-color: rgba(24, 139, 24, 0.729);
 }
