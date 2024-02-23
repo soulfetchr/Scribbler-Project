@@ -59,6 +59,8 @@ body{
    height: 4vh;
    width: 15vh;
 }
+
+
 .posts button:hover{
     cursor: pointer;
     background-color: rgba(245, 245, 117, 0.895);
@@ -86,8 +88,15 @@ body{
 
   }
 
-#signupModel {
-  display: block; 
+  .close:hover{
+    cursor: pointer;
+    color: black;
+
+  }
+
+
+.model {
+  display: none; 
   position: fixed; 
   z-index: 1; 
   left: 0;
@@ -107,6 +116,10 @@ body{
   width:50vh ;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
+#createPost {
+    width:170vh;
+    margin: 4% auto;
+}
 .model-header{
     display: flex;
     justify-content: space-between;
@@ -119,15 +132,18 @@ body{
 .model-header h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 500;
     color: #888;
 }
 
+.model-body form{
+    display: grid;
+    
+}
 .model-body {
     display: grid;
-    padding-bottom: 25px;
 }
-.model-body input, label{
+.model-body input, label, textarea{
     font-family:Tahoma,sans-serif;
     font-weight:medium;
     padding-top: 10px;
@@ -142,17 +158,42 @@ body{
     margin-bottom: 5px;
 }
 
-.model-footer {
-    display: grid;
+.model-body textarea{
+    background-color: #e8e8e8;
+    border: none;
+    padding-left: 10px;
+    color: #888;
 }
 
-.model-footer button {
+.model-body p{
+    margin: 5% auto;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-weight: bold;
+}
+.model-body a{
+    color: blue;
+    text-decoration: none;
+}
+
+
+#signinsubmit, #signupsubmit, #ContentButton {
     font-family:Tahoma,sans-serif;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 30px;
+    margin-top: 20px;
     border: none;
     font-size: medium;
     font-weight: light;
     color: #e8e8e8;
     background-color: rgba(24, 139, 24, 0.729);
+}
+
+#ContentButton {
+margin-left: 77vh;
+margin-right: 77vh;
+}
+#ContentButton:hover, #signinsubmit:hover, #signupsubmit:hover {
+    cursor: pointer;
+    background-color: rgba(34, 162, 34, 0.715);
 }
