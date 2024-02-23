@@ -1,0 +1,43 @@
+.navbar{
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbutton button{
+    background-color: blue;
+    color: aliceblue;
+    height: 6vh;
+    width: 12vh;
+    border: 3px;
+    border-style:outset;
+}
+
+.navbutton button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.681);
+}
+.navbutton button:active{
+    background-color: blue;
+  transform: translateY(1px);
+}
+.navbutton{
+    display: flex;
+    gap: 7%;
+}
+.navbar h1{
+    color: blue;
+    font-family: 'Montez', cursive;
+    margin: 0%;
+    
+}
+.navbar h1, p{
+    margin-right: auto;
+}
+
+.navbar p{
+    margin: 0%;
+    font-family: 'Ubuntu Mono';
+    font-size: small;
+   
+}
