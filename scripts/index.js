@@ -9,7 +9,7 @@ let openSignUPLink = document.getElementById("OpenSignUp");
 let allPosts = document.getElementById("postsLists");
 
 allPosts.onclick = () => {
-    window.location.href = "/Scribbler-Project/scripts/postslist.html";
+    window.location.href = "/Scribbler-Project/html/postslist.html";
 }
 
 signUpButton.onclick = () => {
